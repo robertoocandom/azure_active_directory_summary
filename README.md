@@ -46,4 +46,37 @@
 
 **- Cuenta Microsoft (MSA):** Asociada a servicios como Outlook, hotmail, etc.
 
+##### 2. Componentes de la Autenticación - 😃
 
+**- Autenticacion:** Comprobar o autenticar las credenciales cuando un usuario inicia sesión en un dispositivo, app o servicio.
+
+**- Componentes:** Restablecimiento de la contraseña de autoservicio (todo automatico sin intervencion humana, como llamadas o sms)
+
+**- Autenticacion multifactor:** Codigos sms, correos, llamadas, codigos.
+
+**- Integracion hibrida y autenticacion sin contraseñas:** no escribir contraseña siempre, se puede registrar dispositivo y usar autenticacion biometrica como huella. voz.
+
+**- Restablecimiento contraseña:**
+
+    - Cambio contraseña.
+    - Restablecimiento contraseña.
+    - Desbloqueo cuenta.
+
+**- Proteccion con contraseña:**
+
+    - Bloqueo contraseñas no seguras
+    - Definir directivas de protección
+    - Seguridad hibrida: se sincroniza on premises y online las directivas para aceptar contraseñas.
+
+**- Complejidad contraseña:**
+
+    - Contraseña que cumpla con reglas de complejidad
+    - Azure AD usa combinacion predeterminada que se puede personalizar. una letra minuscula, mayuscula, numero, simbolo.
+    - Cambiar contraseña cuando se olvida o perdiodicamente.
+    _ Bloqueo inteligente cuenta. evita intentos de adivinar por fuerza bruta. se desbloquea con el admin o usuario designado.
+
+**- Autenticacion sin contraseña:**
+
+    - Conveniente - seguro: password. se puede hackear facilmente.
+    - Conveniente + seguridad: password + 2 factor
+    - Conveniente + seguro: sin password. se pone usuario e inicia sesion. asi AD se conecta con app authenticator y valida identidad. biometrico, pin, codigo
