@@ -80,3 +80,21 @@
     - Conveniente - seguro: password. se puede hackear facilmente.
     - Conveniente + seguridad: password + 2 factor
     - Conveniente + seguro: sin password. se pone usuario e inicia sesion. asi AD se conecta con app authenticator y valida identidad. biometrico, pin, codigo
+
+
+#### ¿Qué es la autenticación multifactor?
+
+El funcionamiento de la autenticación multifactor se basa en exigir uno o mas de los siguientes elementos:
+
+- Algo que se conoce
+- Algo que tiene
+- Algo que forma parte de ti
+
+**Acceso condicional:**
+
+- Ubicación de inicio de sesión
+- Las características de detección de riesgos de Azure Ad Identy Protection incluten el reporte de usuarios en riesgo e inicios de sesión riesgosos.
+- Adicionalmente se pueden crear directivas de acceso condicional que utilicen esas detecciones para determinar las acciones correspondientes.
+- Toma en cuenta Señales
+- Toma decisiones con las señales
+- Realiza el cumplimiento
