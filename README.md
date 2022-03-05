@@ -82,7 +82,7 @@
     - Conveniente + seguro: sin password. se pone usuario e inicia sesion. asi AD se conecta con app authenticator y valida identidad. biometrico, pin, codigo
 
 
-#### ¿Qué es la autenticación multifactor?
+#### 3. ¿Qué es la autenticación multifactor?
 
 El funcionamiento de la autenticación multifactor se basa en exigir uno o mas de los siguientes elementos:
 
@@ -103,4 +103,30 @@ El funcionamiento de la autenticación multifactor se basa en exigir uno o mas d
 ![Screen Shot 2022-03-05 at 14 30 31](https://user-images.githubusercontent.com/38354463/156899107-42d21ec2-6b60-4a83-aea0-96e34bbbaf6e.png)
 
 Fuente: Curso de Azure Active Directory www.platzi.com
+
+
+
+#### 4. Autenticación vs Autorización
+
+**-Autenticación:**
+
+• Consiste en demostrar que eres quien dices ser. La plataforma de identidad de Microsoft utiliza el protocolo OpenID Connect para administrar la autenticación.
+
+**- Autorización**
+
+• Consiste en conceder a una parte autenticada permiso para hacer algo. Se especifica que datos se pueden acceder y que se puede hacer con ellos. La plataforma de identidad de Microsoft utiliza OAuth 2.0
+
+**- Combinando autenticación y autorización**
+
+Delegando la autenticación y autorización de Azure AD permite los siguientes escenarios:
+
+- Directivas de acceso condicional
+- Uso de autenticación multifactor
+- Inicio de sesión único (SSO)
+
+**- Protocolos de autenticación:**
+
+- OAuth frente a OpenID Connect
+- OAuth frente a SAML
+- OpenID Connect frente a SAML
 
