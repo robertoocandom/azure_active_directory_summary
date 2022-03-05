@@ -130,3 +130,41 @@ Delegando la autenticación y autorización de Azure AD permite los siguientes e
 - OAuth frente a SAML
 - OpenID Connect frente a SAML
 
+
+#### 5 Hablemos de Tokens
+
+Un token en informática es una cadena de caracteres que tienen un significado coherente en cierto lenguaje de programación.
+
+**- Tokens de ID:** Los tokens de Id de envían a la aplicación cliente como parte de un flujo de OpenID Connect. Este tipo de token sirve para autenticar al usuario a validar que un usuario es quien dice ser.
+
+**- Token de Acceso:** Es un token de seguridad emitido por un servidor de autorización como parte de un flujo de OAuth 2.0, incluye información sobre el usuario y el recurso para el que está previsto el token.
+
+**- Token de actualización:** Los tokens de acceso solo son validos durante un breve periodo de tiempo, utiliza tokens de actualización en la aplicación cuando sea necesario.
+
+**- Validación de tokens de seguridad:** La validación del token la realiza la aplicación para la cual fue generada. Esto ocurre al comprobar la firma generada utilizando la llave pública del servidor de autorización.
+
+**- Normalmente el servidor de autorización proporciona un par de tokens.** 
+
+**- Token de acceso para acceder a la aplicación o al recurso protegido.**
+
+**- Token de actualización, se utiliza para renovar el token de acceso cuando esta a punto de expirar.**
+
+**- Instancias de JSON WEB Token y Notificaciones:**
+
+- La plataforma de identidad de Microsoft implementa los tokens de seguridad como instancias de JSON Web Tokens (JWT) que incluyen notificaciones.
+- Una notificación proporciona aserciones sobre una entidad, como aplicación cliente o el propietario de recursos a otra entidad.
+- Las notificaciones son pares de nombres o valores que se transmiten datos sobre el firmante del token.
+- Las aplicaciones puedes usar las notificaciones para tareas como:
+
+o Validar token
+o Identificar el inquilino firmante del token
+o Mostrar información del usuario
+o Determinar la autorización del firmante
+
+**Una notificación se compone de pares clave-valor que proporcionan información como:**
+
+- El servidor de tokens de seguridad que genero el token
+- La fecha en que se generó el token
+- El firmante
+- La audiencia, que es la aplicación para la cual se generó el token
+- La aplicación (Cliente) que solicito el token.
