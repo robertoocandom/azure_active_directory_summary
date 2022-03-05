@@ -98,3 +98,9 @@ El funcionamiento de la autenticación multifactor se basa en exigir uno o mas d
 - Toma en cuenta Señales
 - Toma decisiones con las señales
 - Realiza el cumplimiento
+
+
+![Screen Shot 2022-03-05 at 14 30 31](https://user-images.githubusercontent.com/38354463/156899107-42d21ec2-6b60-4a83-aea0-96e34bbbaf6e.png)
+
+Fuente: Curso de Azure Active Directory www.platzi.com
+
