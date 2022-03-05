@@ -168,3 +168,5 @@ o Determinar la autorización del firmante
 - El firmante
 - La audiencia, que es la aplicación para la cual se generó el token
 - La aplicación (Cliente) que solicito el token.
+
+Más información en Azure Documentation: https://docs.microsoft.com/es-mx/azure/active-directory/develop/security-tokens
