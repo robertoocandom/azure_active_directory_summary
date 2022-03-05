@@ -82,7 +82,7 @@
     - Conveniente + seguro: sin password. se pone usuario e inicia sesion. asi AD se conecta con app authenticator y valida identidad. biometrico, pin, codigo
 
 
-#### 3. ¿Qué es la autenticación multifactor?
+#### 3. ¿Qué es la autenticación multifactor? 😃
 
 El funcionamiento de la autenticación multifactor se basa en exigir uno o mas de los siguientes elementos:
 
@@ -106,7 +106,7 @@ Fuente: Curso de Azure Active Directory www.platzi.com
 
 
 
-#### 4. Autenticación vs Autorización
+#### 4. Autenticación vs Autorización 😃
 
 **-Autenticación:**
 
