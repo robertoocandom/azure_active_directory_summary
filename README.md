@@ -206,3 +206,47 @@ Lenguajes y plataformas de MSAL:
 • Node
 • Python
 • React
+
+
+### 7. Características de Azure Active Directory B2C
+
+Un inquilino representa la organización y es un directorio de usuarios. Los recursos asociados con un inquilino de Azure Ad B2C incluyen:
+
+• Directorio
+• Registros de aplicación
+• Flujos de usuario y directivas personalizadas
+• Proveedores de identidad
+• Claves
+
+**Cuentas en Azure AD B2C:**
+
+En Azure Ad B2C se definen varios tipos de cuentas de usuario, incluyendo:
+
+• Cuentas profesionales
+• Cuentas de invitado
+• Cuenta de consumidor
+
+Opciones de inicio de sesión en la cuenta local
+
+**Azure AD B2C proporciona varias maneras en la que los usuarios se pueden autenticar, incluyendo:**
+
+• Cuenta local con el nombre de usuario y contraseña
+• Comprobación por teléfono (autenticación sin contraseña)
+• Cuenta local utilizando correo electrónico y contraseña
+
+**Atributos del perfil del usuario:**
+
+• Azure AD B2C permite administrar los atributos comunes de los perfiles de cuentas de consumidor (nombre, apellidos, ciudad, etc.)
+• Se puede ampliar el esquema de Azure Ad para almacenar información adicional.
+
+**Experiencias de identidad:**
+
+• Define la lógica de negocios que siguen los usuarios para obtener acceso a una aplicación.
+• Determinar la serie de pasos que se siguen para iniciar sesión, registrarse, editar un perfil o restablecer una contraseña.
+• Las dos formas de experiencia de los usuarios son:
+o Flujos de Usuario
+o Directivas personalizadas
+
+**Flujos de usuario**
+
+• Son directivas configurables, predefinidas e integradas que se proporcionan para crear experiencias de registro, inicio de sesión, editar perfil o restablecer contraseña.
