@@ -170,3 +170,39 @@ o Determinar la autorización del firmante
 - La aplicación (Cliente) que solicito el token.
 
 Más información en Azure Documentation: https://docs.microsoft.com/es-mx/azure/active-directory/develop/security-tokens
+
+
+#### 6. Introducción a la biblioteca de autenticación MSAL
+
+La biblioteca de autenticación de Microsoft (MSAL) permite que los desarrolladores adquieran tokens desde la plataforma de identidad para autenticar usuarios y acceder a API web protegidas.
+
+Te facilitara el acceso a Microsoft Graph y Otras APIs de Microsoft
+
+Ventajas de MSAL
+
+• No tienes que usar directamente las bibliotecas OAuth de manera manual
+• Adquiere tokens en nombre de un usuario o en nombre de la aplicación
+• Mantiene en caché tokens y actualiza los tokens en nombre del usuario antes que expiren.
+• Ayuda a configurar la aplicación mediante app settings
+
+Escenarios y tipos de aplicación:
+
+MSAL se puede usar en varios escenarios, incluyendo:
+
+• Aplicaciones de una sola página utilizando JavaScript
+• Aplicaciones web que inicia sesión de usuarios.
+• Aplicaciones web que inician sesión de un usuario y llamada a una API Web
+• Protección de una API Web
+• Api web que llama a otra Api Web en nombre del usuario.
+
+Lenguajes y plataformas de MSAL:
+
+• Android
+• Angular
+• iOS y macOS
+• JAVA de MSAL
+• .Js
+• .Net
+• Node
+• Python
+• React
